@@ -9,7 +9,8 @@
 include c:\masm32\include\masm32rt.inc
 	
 .data
-    ; array DWORD 13, 25, 33, 90, 61, 88, 17, 3, 5, 100
+	; array DWORD 79
+    ; array DWORD 1, -2, -3, 4, 5, 6, -7, -8, 9, 10
     ; array DWORD -1, -2, -3, -4, -5, -6, -7, -8, -9, -10
     array DWORD 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 	last_array_index DWORD 0
