@@ -37,7 +37,7 @@ start:
 			mov EAX, array[ESI * 4]
 
 			; Realiza una operación AND con 1 (Prueba de paridad)
-			test ESI, 1
+			test ESI, 01h
 			; Si el resultado es distinto de 0, el número es impar
 			; Nota: Esto es conveniente ya que los indices son positivos
 			; Si se quisiera comprobar con numeros negativos,
